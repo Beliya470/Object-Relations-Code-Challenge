@@ -1,3 +1,4 @@
+
 class DriveIn:
     def __init__(self, name):
         self._name = name
@@ -34,7 +35,7 @@ class MovieScreen:
     def movie_title(self):
         return self._movie_title
 
-    def capacity(self):
+    def capacity(self)
         return self._capacity
 
     def drive_in(self):
@@ -76,3 +77,9 @@ class Car:
     @current_movie_screen.setter
     def current_movie_screen(self, movie_screen):
         self._current_movie_screen = movie_screen
+
+
+drive_in1 = DriveIn("Sunset DriveIn")
+print(drive_in1.name())
+
+
